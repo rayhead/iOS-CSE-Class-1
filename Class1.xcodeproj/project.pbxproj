@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D08E5E13419A7D003C5713 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D08E5D13419A7D003C5713 /* Person.m */; };
 		1D3623260D0F684500981E51 /* Class1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Class1AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11D08E5C13419A7D003C5713 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		11D08E5D13419A7D003C5713 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* Class1AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class1AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* Class1AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Class1AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 			children = (
 				1D3623240D0F684500981E51 /* Class1AppDelegate.h */,
 				1D3623250D0F684500981E51 /* Class1AppDelegate.m */,
+				11D08E5C13419A7D003C5713 /* Person.h */,
+				11D08E5D13419A7D003C5713 /* Person.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* Class1AppDelegate.m in Sources */,
+				11D08E5E13419A7D003C5713 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
